@@ -1,0 +1,23 @@
+{
+  "name": "nodelogger",
+  "version": "1.0.0",
+  "description": "Node Logger",
+  "type": "module",
+  "keywords": [
+    "Node"
+  ],
+  "homepage": "https://github.com/DevLitos/NodeLogger#readme",
+  "bugs": {
+    "url": "https://github.com/DevLitos/NodeLogger/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevLitos/NodeLogger.git"
+  },
+  "license": "MIT",
+  "author": "DevLitos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
