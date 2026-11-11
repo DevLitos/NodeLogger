@@ -1,5 +1,5 @@
 {
-  "name": "nodelogger",
+  "name": "carlos-node-logger",
   "version": "1.0.0",
   "description": "Node Logger",
   "type": "module",
@@ -19,5 +19,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "carlos-node-logger": "^0.0.0-stage"
   }
 }

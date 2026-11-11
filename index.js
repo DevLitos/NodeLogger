@@ -24,3 +24,9 @@ export const error = (mensaje) => {
 export const debug = (mensaje) => {
   console.debug(`DEBUG: ${mensaje}`)
 }
+
+const date = () => {
+  return new Date().toLocaleString('es-ES')
+}
+
+console.log(`INFO: ${date()}`)
