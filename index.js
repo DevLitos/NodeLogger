@@ -10,19 +10,19 @@
 // mostrará por consola indicando el nivel correspondiente.
 
 export const info = (mensaje) => {
-  console.log(`INFO: ${mensaje}`)
+  console.log(chalk.blue(`INFO: ${mensaje}`))
 }
 
 export const warn = (mensaje) => {
-  console.warn(`WARN: ${mensaje}`)
+  console.warn(chalk.yellow(`WARN: ${mensaje}`))
 }
 
 export const error = (mensaje) => {
-  console.error(`ERROR: ${mensaje}`)
+  console.error(chalk.red(`ERROR: ${mensaje}`))
 }
 
 export const debug = (mensaje) => {
-  console.debug(`DEBUG: ${mensaje}`)
+  console.debug(chalk.green(`DEBUG: ${mensaje}`))
 }
 
 const date = () => {
